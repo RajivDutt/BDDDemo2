@@ -20,8 +20,7 @@ public class LoginDataTableSteps {
     }
 
     @Then("User should be able to log in")
-    public void user_should_be_able_to_log_in() {
-        System.out.println("hello");
+    public void user_should_be_able_to_log_in() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
